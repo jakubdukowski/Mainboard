@@ -1,0 +1,213 @@
+body {
+    background-image: url("../img/tlo.jpg");
+}
+#mainboard {
+    background-image: url("../img/mainboardmsi.png");
+    background-size: contain;
+    width:1000px;
+    height:900px;
+    background-repeat: no-repeat;
+    transform: rotate3d(2, -1, -1, -0.1turn);
+}
+#cpu,
+#ram,
+#porty,
+#pci,
+#chipset,
+#zasilanie,
+#bateria,
+#bios,
+#sata{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/dot.svg");
+    background-size: 40px 40px;
+    top:290px;
+    left:365px;
+    position: absolute;
+}
+#ram{
+    top:290px;
+    left:565px;
+
+}
+#porty{
+    top:230px;
+    left:30px;
+
+}
+#pci{
+    top:720px;
+    left:290px;
+}
+#chipset{
+top:620px;
+left:530px;
+
+}
+#zasilanie{
+    top:400px;
+    left:680px;
+
+}
+#bateria{
+    top:600px;
+    left:190px;
+
+}
+#bios{
+    top:670px;
+    left:585px;
+
+}
+#sata{
+    top:630px;
+    left:675px;
+}
+
+/* Tooltip text */
+#cpu .tooltiptext,
+#ram .tooltiptext,
+#porty .tooltiptext,
+#pci .tooltiptext,
+#chipset .tooltiptext,
+#zasilanie .tooltiptext,
+#bateria .tooltiptext,
+#bios .tooltiptext,
+#sata .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#cpu:hover .tooltiptext {
+    visibility: visible;
+}
+#ram:hover .tooltiptext {
+    visibility: visible;
+}
+#porty:hover .tooltiptext {
+    visibility: visible;
+}
+#pci:hover .tooltiptext {
+    visibility: visible;
+}
+#chipset:hover .tooltiptext {
+    visibility: visible;
+}
+#zasilanie:hover .tooltiptext {
+    visibility: visible;
+}
+#bateria:hover .tooltiptext {
+    visibility: visible;
+}
+#bios:hover .tooltiptext {
+    visibility: visible;
+}
+#sata:hover .tooltiptext {
+    visibility: visible;
+}
+#mainboardMain{
+    display: flex;
+    width: 100%
+}
+#mainboardPhoto{
+width:50%
+}
+#mainboardLegend{
+width:50%
+}
+
+.hide{
+ display:none;
+}
+.show{
+display:block;
+}
+#mainboard:hover{
+    animation-name: mainboard;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+
+@keyframes mainboard {
+    0%{position: relative;top: 0}
+    50%{position: relative; top: 30px}
+    100%{position: relative;top: 0}
+}
+
+#cpuInfo .describe,
+#ramInfo .describe,
+#chipsetInfo .describe,
+#zasilanieInfo .describe,
+#biosInfo .describe,
+#portyInfo .describe,
+#sataInfo .describe,
+#bateriaInfo .describe,
+#pciInfo .describe {
+    background-image: url("../img/procesor.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    width: 80%;
+    height: 400px;
+    color: white;
+    text-shadow: black 2px 2px 5px;
+    font-size: 1.2em;
+    z-index: -120;
+    border-radius: 20px;
+    border : 3px solid white;
+    box-shadow : rgba( 0, 0, 0, 0.65);
+
+}
+#ramInfo .describe{
+    background-image: url("../img/ram1.jpg");
+    width: 80%;
+    height: 400px;
+}
+#chipsetInfo .describe{
+    background-image: url("../img/chipset.jpg");
+    width: 80%;
+    height: 400px;
+}
+#zasilanieInfo .describe{
+    background-image: url("../img/atx.jpg");
+    width: 80%;
+    height: 400px;
+}
+#biosInfo .describe {
+    background-image: url("../img/bios.jpg");
+    width: 80%;
+    height: 400px;
+}
+#portyInfo .describe {
+    background-image: url("../img/usb.jpg");
+    width: 80%;
+    height: 400px;
+}
+#sataInfo .describe {
+    background-image: url("../img/sata.jpg");
+    width: 80%;
+    height: 400px;
+
+}
+#bateriaInfo .describe {
+    background-image: url("../img/bateria.jpg");
+    width: 80%;
+    height: 400px;
+
+}
+#pciInfo .describe {
+    background-image: url("../img/pci.jpg");
+    width: 80%;
+    height: 400px;
+}
