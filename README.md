@@ -30,7 +30,7 @@ Najwyższa przepustowość dzięki pamięci DDR4
 Ten model płyty głównej jest kompatybilny z pamięcią RAM w standardzie DDR4. Obecnie jest to najczęściej wybierany standard pamięci RAM, a szczególnie w odniesieniu do nowych i wydajnych konfiguracji. Standard DDR4 pozwala na uzyskanie o wiele wyższej przepustowości pamięci RAM, co ma niebagatelny wpływ na wydajność komputera.
 ![](https://content.morele.net/autoopisy/plyty_glowne/pics/ddr4.png)
 
-###Opis
+### Opis
 
 ** Specyfikacja techniczna**
 Producent: MSI
@@ -46,7 +46,7 @@ Gniazdo procesora: Socket AM4
 Rodzaje procesorów: AMD Ryzen
 Kontroler RAID: RAID 0,RAID 1,RAID 10
 Zastosowane technologie: DualBIOS,Game Boost,Gigabyte APP Center,MSI DDR4 Boost,MSI Gaming Hotkey,MSI Mystic Light,MSI Steel Armor PCI-E
-**Pamię**
+**Pamięć**
 Standard pamięci: DDR4
 Rodzaj złącza: DIMM
 Ilość slotów pamięci: 4
@@ -110,4 +110,4 @@ Złącze audio x5
 **Bios:**
 Producent: AMI UEFI
 
-# konfiguratorPC
+
