@@ -110,3 +110,4 @@ Złącze audio x5
 **Bios:**
 Producent: AMI UEFI
 
+# konfiguratorPC
