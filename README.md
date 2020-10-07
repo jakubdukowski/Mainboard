@@ -110,4 +110,4 @@ Złącze audio x5
 **Bios:**
 Producent: AMI UEFI
 
-
+![](https://images.morele.net/i1064/5938604_9_i1064.png)
